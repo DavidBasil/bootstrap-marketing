@@ -7,6 +7,13 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<style type="text/css" media="all">
+.carousel-inner img {
+	width: 100%;
+	margin: auto;
+	max-height: 300px;
+}		
+	</style>
 </head>
 <body>
 		
@@ -29,12 +36,66 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">
-							<span class="glyphicon glyphicon-log-in"></span>Login
+							<span class="glyphicon glyphicon-log-in"></span> Login
 						</a></li>
 				</ul>
 			</div> <!-- /navbar-collapse -->
 	</div> <!-- /container-fluid -->
 </nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="http://www.theimprovnetwork.org/wp-content/uploads/marketing-puzzle1.jpg" alt="" />	
+			<div class="carousel-caption">
+				<h3>Sell your skills</h3>	
+				<p>Get expertice in your field.</p>
+			</div> <!-- /carousel-caption -->
+		</div>	<!-- /item -->	
+		<div class="item">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqqT5OQ8YrcZy-2FaqHiwM7PheWfdQyqTNFbId1bxSOMm05NWsTw" alt="" />	
+			<div class="carousel-caption">
+				<h3>More skills</h3>
+				<p>Lorem Ipsum...</p>
+			</div> <!-- /carousel-caption -->
+		</div> <!-- /item -->
+	</div>	<!-- /carousel-inner -->
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span>Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span>Next</span>
+	</a>
+</div> <!--/ carousel -->
+<br />
+<div class="container text-center">
+	<h3>What we do</h3>	
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="https://placeimg.com/220/117/tech?t=1503156071750" alt="" />	
+			<p>Current Project</p>
+		</div> <!-- /col -->	
+		<div class="col-sm-4">
+			<img src="https://placeimg.com/220/117/tech" alt="" />
+			<p>Project</p>
+		</div> <!-- /col -->
+		<div class="col-sm-4">
+			<div class="well">
+				<p>Some text</p>	
+			</div>	
+			<div class="well">
+				<p>Some text</p>	
+			</div>
+		</div> <!-- /col -->
+	</div>	<!-- /row -->
+</div> <!-- /container -->
+<br />
+
+<footer class="container-fluid text-center navbar-inverse text-info">
+	<p>&copy; 2017 David Basil</p>	
+</footer>
 
 </body>
 </html>
